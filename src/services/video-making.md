@@ -1,6 +1,6 @@
 ---
 title: "Video Making"
-description: "Video Making des"
+description: "Video Making <br>descr"
 faIcon: "film"
 ---
 
