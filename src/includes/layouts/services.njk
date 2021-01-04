@@ -2,6 +2,7 @@
 
 {% block postContent %}
 
+
 <div class="service-area sp">
     <div class="container">
         <div class="row">
@@ -15,7 +16,7 @@
                         <h4>{{ service.data.title }}</h4>
                     </div>
                     <div class="content">
-                        <p>{{ service.data.description }}</p>
+                        <p>{{ service.data.description | striptags(true) | escape | nl2br }}  </p>
                         <a href="{{ service.url }}">Read more</a>
                     </div>
                 </div>
